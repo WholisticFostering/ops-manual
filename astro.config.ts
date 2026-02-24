@@ -8,8 +8,8 @@ import AstroPWA from "@vite-pwa/astro";
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			credits: true,
+			title: 'wf Ops',
+			credits: false,
 			customCss: ['./src/styles/custom.css'],
 			social: {
 				github: 'https://github.com/sanabel-al-firdaws/Starlight-Pwa',
